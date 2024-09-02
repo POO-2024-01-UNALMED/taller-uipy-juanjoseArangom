@@ -4,11 +4,11 @@ from tkinter import Tk, Button, Entry
 root = Tk()
 root.title("Calculadora POO")
 root.resizable(0,0)
-root.geometry("590x600")
+root.geometry("300x250")
 
 # Configuración pantalla de salida 
 pantalla = Entry(root, width=40, bg="black", fg="white", borderwidth=0, font=("arial", 18, "bold"))
-pantalla.grid(row=0, column=0, columnspan=1, padx=1, pady=1)
+pantalla.grid(row=0, column=0, columnspan=100, padx=1, pady=0)
 
 # Configuración botones
 boton_1 = Button(root, text="1", width=9, height=3, bg="white", fg="red", borderwidth=0, cursor="hand2").grid(row=1, column=0, padx=1, pady=1)
